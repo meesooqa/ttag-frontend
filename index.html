@@ -4,10 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/styles/styles.css">
+<!--    <link rel="stylesheet" href="static/styles/styles001.css">-->
+<!--    <link rel="stylesheet" href="static/styles/styles002.css">-->
     <title>TTAG Frontend</title>
 </head>
 <body class="page__body">
-    <h1>TTAG Frontend</h1>
+    <aside class="sidebar">
+        <div class="sidebar__group" title="Links Group Name Long Long Very Long">
+            <select name="group" id="group">
+                <option disabled>— Groups —</option>
+                <option value="1">Group Name 001</option>
+                <option value="2" selected>Links Group Name Long Long Very Long</option>
+                <option value="1">Group Name 003</option>
+            </select>
+        </div>
+        <nav class="sidebar__nav">
+            <ul>
+                <li>
+                    <a href="/coocc" title="Co-occurrence Analysis">Co-occurrence Analysis</a>
+                    <ul>
+                        <li><a href="/coocc/1" title="Частотный анализ пар">Частотный анализ пар</a></li>
+                        <li><a href="/coocc/2" title="Меры ассоциации">Меры ассоциации</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span title="Network Analysis">Network Analysis</span>
+                    <ul>
+                        <li><a href="/network/1" title="Построение графа">Построение графа</a></li>
+                        <li><span title="Метрики центральности">Метрики центральности</span></li>
+                        <li><a href="#" title="Кластеризация">Кластеризация</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/temporal" title="Temporal Analysis">Temporal Analysis</a>
+                    <ul>
+                        <li><a href="/temporal/1" title="Динамика популярности">Динамика популярности</a></li>
+                        <li><a href="/temporal/2" title="Временные окна">Временные окна</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/distribution" title="Анализ распределения и разнообразия тегов">Анализ распределения и разнообразия тегов</a>
+                    <ul>
+                        <li><a href="/distribution/1" title="Энтропия тегов">Энтропия тегов</a></li>
+                        <li><a href="/distribution/1" title="Длина «хвоста» распределения">Длина «хвоста» распределения</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/scombs" title="Stable Combinations">Stable Combinations</a>
+                    <ul>
+                        <li><a href="/scombs/1" title="Многоуровневые паттерны">Многоуровневые паттерны</a></li>
+                        <li><a href="/scombs/2" title="Ассоциативные правила">Ассоциативные правила</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/comparative" title="Comparative Analysis">Comparative Analysis</a>
+                    <ul>
+                        <li><a href="/comparative/1" title="Кросс-анализ с другими метриками">Кросс-анализ с другими метриками</a></li>
+                        <li><a href="/comparative/2" title="Сегментация">Сегментация</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <footer class="sidebar__footer">
+            <div class="copyright"><a href="https://github.com/meesooqa">meesooqa</a></div>
+        </footer>
+    </aside>
+    <main class="main">
+        <header class="main__header">
+            <h1 class="main__title" title="Links Group Name Long Long Very Long">
+                <label for="group">
+                    Links Group Name Long Long Very Long
+                </label>
+            </h1>
+            <h2 class="main__subtitle" title="Метрики центральности">
+                Метрики центральности
+            </h2>
+        </header>
+        <section class="main__content">
+            <p>
+                Yesterday, Robin Houston, a computer scientist and mathematician tweeted
+                about the bizarre intersection of 4chan and mathematics, inadvertently
+                setting off a wave of public interest in the story.
+                Within hours of his tweet, his phone was vibrating constantly.
+                "It started to go mad," he says. "My phone started going crazy."
+                The 4chan part of this saga began on September 17th, 2011,
+                when a poster posed a question: if you wanted to watch
+                14 episodes of the anime The Melancholy of Haruhi Suzumiya
+                in every possible order, what’s the shortest string of episodes
+                you’d need to watch?
+            </p>
+        </section>
+    </main>
 </body>
-<script type="module" src="static/scripts/index.js"></script>
 </html>
