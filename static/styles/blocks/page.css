@@ -1,0 +1,18 @@
+/* Page */
+
+.page,
+.page__body {
+    height: 100%;
+}
+
+.page {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--clr-txt-primary);
+    background-color: var(--clr-bg-primary);
+    scroll-behavior: smooth;
+}
+
+.page__body {
+    max-width: 1920px;
+    margin: 0 auto;
+}

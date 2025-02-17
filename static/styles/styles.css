@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* Blocks */
+
+@import "blocks/box-sizing.css";
+@import "blocks/page.css";
+
+:root {
+    --clr-txt-primary: #000000;
+    --clr-bg-primary: #ffffff;
+}
