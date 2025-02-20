@@ -20,10 +20,6 @@
     padding-right: 1rem;
 
     display: grid;
-    grid-template-areas:
-        "nav main"
-        "footer footer"
-    ;
     grid-template-columns: 256px 1fr;
     grid-gap: 1rem;
 }
