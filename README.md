@@ -6,7 +6,7 @@ Start
 ```sh
 docker compose up
 ```
-Open [http://localhost](http://localhost).
+Open [http://localhost/layout.html](http://localhost/layout.html).
 
 Stop
 ```sh
